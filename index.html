@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Around The U.S.</title>
+</head>
+
+<body class="page">
+  <div class="page__wrapper">
+    <header class="header">
+      <img src="./images/header image.svg" alt="logo Around The U.S." class="header__image">
+    </header>
+
+    <main class="content">
+      <section class="profile">
+        <img src="./images/Jacques Cousteau.jpg" alt="Jacques Cousteau photo" class="profile__avatar">
+        <div class="profile__wrapper">
+          <div class="profile__wrapper_title">
+            <div class="profile__title">
+              <h1 class="profile__name">Jacques Cousteau</h1>
+              <button type="button" class="button profile__button_edit">
+                <img src="./images/edit profile button.svg" alt="profile edit icon" class="profile__edit-icon">
+              </button>
+            </div>
+            <p class="profile__subtitle">Explorer</p>
+          </div>
+          <button type="button" class="button profile__button_add">
+            <img src="./images/Add Button.svg" alt="profile add icon" class="profile__add-icon">
+          </button>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="grid__card">
+          <img src="./images/Yosemite Valley.jpg" alt="forest river" class="grid__card-image">
+          <div class="grid__card-name">
+            <h2 class="grid__card-label">Yosemite Valley</h2>
+            <button type="button" class="button grid__card_button-like">
+              <img src="./images/like button.svg" alt="like button" class="grid__card_like-icon">
+            </button>
+          </div>
+        </article>
+        <article class="grid__card">
+          <img src="./images/Lake Louise.png" alt="mountain lake" class="grid__card-image">
+          <div class="grid__card-name">
+            <h2 class="grid__card-label">Lake Louise</h2>
+            <button type="button" class="button grid__card_button-like">
+              <img src="./images/like button.svg" alt="like button" class="grid__card_like-icon">
+            </button>
+          </div>
+        </article>
+        <article class="grid__card">
+          <img src="./images/Bald Mountains.png" alt="sunset in mountains" class="grid__card-image">
+          <div class="grid__card-name">
+            <h2 class="grid__card-label">Bald Mountains</h2>
+            <button type="button" class="button grid__card_button-like">
+              <img src="./images/like button.svg" alt="like button" class="grid__card_like-icon">
+            </button>
+          </div>
+        </article>
+        <article class="grid__card">
+          <img src="./images/Latemar.png" alt="night in mountains" class="grid__card-image">
+          <div class="grid__card-name">
+            <h2 class="grid__card-label">Latemar</h2>
+            <button type="button" class="button grid__card_button-like">
+              <img src="./images/like button.svg" alt="like button" class="grid__card_like-icon">
+            </button>
+          </div>
+        </article>
+        <article class="grid__card">
+          <img src="./images/Vanoise Nationa....png" alt="Vanoise National park" class="grid__card-image">
+          <div class="grid__card-name">
+            <h2 class="grid__card-label">Vanoise National park</h2>
+            <button type="button" class="button grid__card_button-like">
+              <img src="./images/like button.svg" alt="like button" class="grid__card_like-icon">
+            </button>
+          </div>
+        </article>
+        <article class="grid__card">
+          <img src="./images/Lago di Braies.png" alt="boats on the lake" class="grid__card-image">
+          <div class="grid__card-name">
+            <h2 class="grid__card-label">Lago di Braies</h2>
+            <button type="button" class="button grid__card_button-like">
+              <img src="./images/like button.svg" alt="like button" class="grid__card_like-icon">
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">© 2022 Romanov</p>
+    </footer>
+
+    <div class="popup popup__opened">
+      <div class="popup__wrapper">
+        <button type="button" class="button popup__button_close"></button>
+        <form action="#" class="popup__form" name="profile-form">
+          <p class="form__title">Edit profile</p>
+          <fieldset class="popup__form-fieldset">
+            <input type="text" id="name" placeholder="Name" name="name" class="popup__form_input popup__form_name">
+            <input type="text" id="name" placeholder="About" name="name" class="popup__form_input popup__form_about">
+          </fieldset>
+          <button class="button popup__form-button">Save</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script/index.js"></script>
+  </div>
+</body>
+
+</html>
