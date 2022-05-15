@@ -4,6 +4,7 @@
 
 * Figma
 * Script
+* GitHub
 
 **Figma**
 
@@ -13,3 +14,6 @@
 
 *Site uses script for a popup form 
 
+**GitHub**
+
+* Link to the GitHub pages
