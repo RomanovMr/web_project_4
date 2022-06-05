@@ -43,7 +43,7 @@
     overflow: hidden;
 }
 
-.grid__card_button-like {
+.grid__card-button-like {
     padding: 0 18px 0 0;
     border: none;
     font: inherit;
@@ -52,7 +52,7 @@
     cursor: pointer;
 }
 
-.grid__card_button-like:hover {
+.grid__card-button-like:hover {
     opacity: 0.5;
 }
 
@@ -60,5 +60,6 @@
     .grid {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
+        margin-top: 0;
     }
 }

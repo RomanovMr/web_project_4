@@ -18,17 +18,15 @@
       <section class="profile">
         <img src="./images/Jacques_Cousteau.jpg" alt="Jacques Cousteau photo" class="profile__avatar">
         <div class="profile__wrapper">
-          <div class="profile__wrapper_title">
+          <div class="profile__title-wrapper">
             <div class="profile__title">
               <h1 class="profile__name">Jacques Cousteau</h1>
-              <button type="button" class="button profile__button_edit">
-                <img src="./images/edit_profile_button.svg" alt="profile edit icon" class="profile__edit-icon">
+              <button type="button" class="button profile__button profile__button_type_edit">
               </button>
             </div>
             <p class="profile__subtitle">Explorer</p>
           </div>
-          <button type="button" class="button profile__button_add">
-            <img src="./images/Add_Button.svg" alt="profile add icon" class="profile__add-icon">
+          <button type="button" class="button profile__button profile__button_type_add">
           </button>
         </div>
       </section>
@@ -38,8 +36,8 @@
           <img src="./images/Yosemite_Valley.jpg" alt="forest river" class="grid__card-image">
           <div class="grid__card-name">
             <h2 class="grid__card-label">Yosemite Valley</h2>
-            <button type="button" class="button grid__card_button-like">
-              <img src="./images/like_button.svg" alt="like button" class="grid__card_like-icon">
+            <button type="button" class="button grid__card-button-like">
+              <img src="./images/like_button.svg" alt="like button" class="grid__card-like-icon">
             </button>
           </div>
         </article>
@@ -47,8 +45,8 @@
           <img src="./images/Lake_Louise.png" alt="mountain lake" class="grid__card-image">
           <div class="grid__card-name">
             <h2 class="grid__card-label">Lake Louise</h2>
-            <button type="button" class="button grid__card_button-like">
-              <img src="./images/like_button.svg" alt="like button" class="grid__card_like-icon">
+            <button type="button" class="button grid__card-button-like">
+              <img src="./images/like_button.svg" alt="like button" class="grid__card-like-icon">
             </button>
           </div>
         </article>
@@ -56,8 +54,8 @@
           <img src="./images/Bald_Mountains.png" alt="sunset in mountains" class="grid__card-image">
           <div class="grid__card-name">
             <h2 class="grid__card-label">Bald Mountains</h2>
-            <button type="button" class="button grid__card_button-like">
-              <img src="./images/like_button.svg" alt="like button" class="grid__card_like-icon">
+            <button type="button" class="button grid__card-button-like">
+              <img src="./images/like_button.svg" alt="like button" class="grid__card-like-icon">
             </button>
           </div>
         </article>
@@ -65,8 +63,8 @@
           <img src="./images/Latemar.png" alt="night in mountains" class="grid__card-image">
           <div class="grid__card-name">
             <h2 class="grid__card-label">Latemar</h2>
-            <button type="button" class="button grid__card_button-like">
-              <img src="./images/like_button.svg" alt="like button" class="grid__card_like-icon">
+            <button type="button" class="button grid__card-button-like">
+              <img src="./images/like_button.svg" alt="like button" class="grid__card-like-icon">
             </button>
           </div>
         </article>
@@ -74,8 +72,8 @@
           <img src="./images/Vanoise_Nationa....png" alt="Vanoise National park" class="grid__card-image">
           <div class="grid__card-name">
             <h2 class="grid__card-label">Vanoise National park</h2>
-            <button type="button" class="button grid__card_button-like">
-              <img src="./images/like_button.svg" alt="like button" class="grid__card_like-icon">
+            <button type="button" class="button grid__card-button-like">
+              <img src="./images/like_button.svg" alt="like button" class="grid__card-like-icon">
             </button>
           </div>
         </article>
@@ -83,8 +81,8 @@
           <img src="./images/Lago_di_Braies.png" alt="boats on the lake" class="grid__card-image">
           <div class="grid__card-name">
             <h2 class="grid__card-label">Lago di Braies</h2>
-            <button type="button" class="button grid__card_button-like">
-              <img src="./images/like_button.svg" alt="like button" class="grid__card_like-icon">
+            <button type="button" class="button grid__card-button-like">
+              <img src="./images/like_button.svg" alt="like button" class="grid__card-like-icon">
             </button>
           </div>
         </article>
@@ -95,14 +93,14 @@
       <p class="footer__text">© 2022 Romanov</p>
     </footer>
 
-    <div class="popup popup__opened">
+    <div class="popup popup_opened">
       <div class="popup__wrapper">
-        <button type="button" class="button popup__button_close"></button>
+        <button type="button" class="button popup__button"></button>
         <form action="#" class="popup__form" name="profile-form">
-          <p class="form__title">Edit profile</p>
+          <h2 class="popup__title">Edit profile</h2>
           <fieldset class="popup__form-fieldset">
-            <input type="text" id="name" placeholder="Name" name="name" class="popup__form_input popup__form_name">
-            <input type="text" id="about" placeholder="About" name="name" class="popup__form_input popup__form_about">
+            <input type="text" id="name" placeholder="Name" name="name" class="popup__input popup__input_type_name">
+            <input type="text" id="about" placeholder="About" name="name" class="popup__input popup__input_type_about">
           </fieldset>
           <button class="button popup__form-button">Save</button>
         </form>
