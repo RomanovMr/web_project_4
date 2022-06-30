@@ -1,6 +1,7 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, 282px);
+    justify-content: center;
     grid-template-rows: repeat(2, 1fr);
     row-gap: 20px;
     column-gap: 17px;
@@ -44,7 +45,12 @@
 }
 
 .grid__card-button-like {
+    background-image: url(../images/like_button.svg);
+    background-repeat: no-repeat;
     padding: 0 18px 0 0;
+    margin-right: 18px;
+    width: 21px;
+    height: 19px;
     border: none;
     font: inherit;
     color: inherit;
@@ -58,7 +64,6 @@
 
 @media screen and (max-width: 800px) {
     .grid {
-        grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         margin-top: 0;
     }

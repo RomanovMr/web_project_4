@@ -1,7 +1,6 @@
 const popupDisplay = document.querySelector(".popup");
 const popupOpen = document.querySelector(".profile__button_type_edit");
 const popupClose = document.querySelector(".popup__button");
-const likeButton = document.querySelector(".grid__card-button-like");
 const profileName = document.querySelector(".profile__name");
 const profileAbout = document.querySelector(".profile__subtitle");
 const nameInput = document.querySelector(".popup__input_type_name");
@@ -9,7 +8,7 @@ const aboutInput = document.querySelector(".popup__input_type_about");
 const form = document.querySelector(".popup__form");
 
 function toggleModal() {
-  popupDisplay.classList.toggle("popup_opened");
+  popupDisplay.classList.toggle("popup_hidden");
 }
 
 popupOpen.addEventListener("click", function () {
