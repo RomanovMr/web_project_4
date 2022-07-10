@@ -25,6 +25,8 @@
 }
 
 .profile__name {
+    max-width: 450px;
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: 500;
@@ -34,6 +36,8 @@
 }
 
 .profile__subtitle {
+    max-width: 450px;
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: 400;
@@ -86,6 +90,7 @@ opacity: 0.5;
     }
     
     .profile__name {
+        max-width: 208px;
         font-weight: 500;
         font-size: 22px;
         line-height: 27px;
@@ -99,6 +104,7 @@ opacity: 0.5;
     }
 
     .profile__title {
+        max-width: 250px;
         font-weight: 500;
         font-size: 22px;
         line-height: 27px;
@@ -127,6 +133,7 @@ opacity: 0.5;
       }
 
       .profile__subtitle {
+        max-width: 208px;
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;

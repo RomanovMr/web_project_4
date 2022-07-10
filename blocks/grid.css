@@ -16,6 +16,7 @@
 }
 
 .grid__card-image {
+    display: block;
     max-height: 282px;
     border-radius: 10px 10px 0 0;
     width: 100%;
@@ -29,7 +30,6 @@
     color: black;
     border-radius: 0 0 10px 10px;
     padding: 25px 0;
-    margin-top: -4px;
 }
 
 .grid__card-label {

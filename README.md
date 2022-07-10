@@ -1,19 +1,29 @@
 # Project 4: Around The U.S.
+### Overview  
+* Intro  
+* Features  
+* Improve  
+  
+**Intro**    
+  
+This is a project that brings in a script to open/close a popup window
+  
+**Features**  
+  
+In project were used:
+* Flat BEM methodology
+* Flexbox
+* Grid
+* Pseudoclases
+* @media for different screen sizes
+* Script for popup window
+* Script for name adjustment
+  
+**Improve**  
+  
+* More screen resolutions for smoother transition
+* Elongate grid for larger devices
 
-### Overview
+**Link**  
 
-* Figma
-* Script
-* GitHub
-
-**Figma**
-
-* [Link to the project in Figma](https://www.figma.com/file/SurN1jaeEQIhuZEDMhmWWf/Sprint-4-Around-The-U.S.-desktop-mobile?node-id=0%3A1)
-
-**Script**
-
-*Site uses script for a popup form 
-
-**GitHub**
-
-*Link to the GitHub pages https://romanovmr.github.io/web_project_4/
+# Link to the GitHub pages https://romanovmr.github.io/web_project_4/
